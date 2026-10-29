@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="185" viewBox="0 0 495 185" role="img" aria-labelledby="title desc">
-  <title id="title">Aviral's GitHub statistics</title>
-  <desc id="desc">Public repositories: 4. Followers: 1. Following: 4. Stars: 0.</desc>
-  <rect width="495" height="185" rx="8" fill="#1a1b27"/>
-  <text x="25" y="35" fill="#70a5fd" font-family="Arial, sans-serif" font-size="21" font-weight="bold">Aviral's GitHub Stats</text>
-  <g fill="#a9b1d6" font-family="Arial, sans-serif" font-size="14">
-    <text x="30" y="75">Public repositories</text><text x="260" y="75" fill="#70a5fd">4</text>
-    <text x="30" y="105">Followers</text><text x="260" y="105" fill="#70a5fd">1</text>
-    <text x="30" y="135">Following</text><text x="260" y="135" fill="#70a5fd">4</text>
-    <text x="30" y="165">Stars earned</text><text x="260" y="165" fill="#70a5fd">0</text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="185" viewBox="0 0 495 185"><title>Aviral's GitHub statistics</title><rect width="495" height="185" rx="8" fill="#1a1b27"/><text x="25" y="35" fill="#70a5fd" font-family="Arial,sans-serif" font-size="21" font-weight="bold">Aviral's GitHub Stats</text><g fill="#a9b1d6" font-family="Arial,sans-serif" font-size="14"><text x="30" y="75">Public repositories</text><text x="260" y="75" fill="#70a5fd">4</text><text x="30" y="105">Followers</text><text x="260" y="105" fill="#70a5fd">1</text><text x="30" y="135">Following</text><text x="260" y="135" fill="#70a5fd">4</text><text x="30" y="165">Stars earned</text><text x="260" y="165" fill="#70a5fd">0</text></g></svg>
