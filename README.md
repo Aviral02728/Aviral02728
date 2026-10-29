@@ -85,6 +85,12 @@ me = AviralAgarwal()
 
 ---
 
+## 📂 Featured Repository
+
+- [**aviral_main**](https://github.com/Aviral02728/aviral_main) — My GitHub profile and project overview
+
+---
+
 ## 💻 Programming Languages
 
 <div align="center">
