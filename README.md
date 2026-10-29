@@ -148,6 +148,8 @@ me = AviralAgarwal()
 
 <img src="./profile/stats.svg" width="100%" alt="GitHub Stats"/>
 
+<br/><br/>
+
 <img src="./profile/top-langs.svg" width="72%" alt="Top Languages"/>
 
 </div>
