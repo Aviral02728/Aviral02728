@@ -180,7 +180,7 @@ me = AviralAgarwal()
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Aviral02728/Aviral02728/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+<img src="https://raw.githubusercontent.com/Aviral02728/aviral_main/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
 
 </div>
 

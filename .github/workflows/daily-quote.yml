@@ -1,0 +1,90 @@
+
+name: Update Daily Quote
+
+on:
+  schedule:
+    - cron: "17 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Daily Quote
+        run: |
+          python3 <<'PY'
+          from datetime import datetime, timezone, date
+          from pathlib import Path
+
+          quotes = [
+              ('"Talk is cheap. Show me the code."', 'Linus Torvalds'),
+              ('"Stay hungry, stay foolish."', 'Steve Jobs'),
+              ('"The only way to do great work is to love what you do."', 'Steve Jobs'),
+              ('"Simplicity is the ultimate sophistication."', 'Leonardo da Vinci'),
+              ('"It always seems impossible until it is done."', 'Nelson Mandela'),
+              ('"Without data, you’re just another person with an opinion."', 'W. Edwards Deming'),
+              ('"The secret of getting ahead is getting started."', 'Mark Twain'),
+              ('"Knowledge is power."', 'Francis Bacon'),
+              ('"Success is not final, failure is not fatal."', 'Winston Churchill'),
+              ('"That’s been one of my mantras — focus and simplicity."', 'Steve Jobs'),
+              ('"First, solve the problem. Then, write the code."', 'John Johnson'),
+              ('"Imagination is more important than knowledge."', 'Albert Einstein'),
+              ('"Nothing is particularly hard if you divide it into small jobs."', 'Henry Ford'),
+              ('"It does not matter how slowly you go as long as you do not stop."', 'Confucius'),
+              ('"The best way to predict the future is to invent it."', 'Alan Kay'),
+              ('"If you can’t explain it simply, you don’t understand it well enough."', 'Albert Einstein'),
+              ('"I have not failed. I’ve just found 10,000 ways that won’t work."', 'Thomas Edison'),
+              ('"Great things are done by a series of small things brought together."', 'Vincent van Gogh'),
+              ('"An investment in knowledge pays the best interest."', 'Benjamin Franklin'),
+              ('"It’s not that I’m so smart, it’s just that I stay with problems longer."', 'Albert Einstein'),
+          ]
+
+          today = datetime.now(timezone.utc).date()
+          start_date = date(2026, 1, 1)
+          index = (today - start_date).days % len(quotes)
+          quote, author = quotes[index]
+
+          readme = Path("README.md")
+          content = readme.read_text(encoding="utf-8")
+
+          start_marker = "<!-- DAILY-QUOTE:START -->"
+          end_marker = "<!-- DAILY-QUOTE:END -->"
+
+          if start_marker not in content or end_marker not in content:
+              raise SystemExit("Daily quote markers are missing from README.md")
+
+          before, remainder = content.split(start_marker, 1)
+          _, after = remainder.split(end_marker, 1)
+
+          new_quote = f"> {quote}  \n> — **{author}**"
+          updated = (
+              before + start_marker + "\n" + new_quote + "\n"
+              + end_marker + after
+          )
+
+          if updated != content:
+              readme.write_text(updated, encoding="utf-8")
+              print(f"Quote updated for {today}: {quote} — {author}")
+          else:
+              print("No README changes needed.")
+          PY
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily quote"
+            git push
+          else
+            echo "No changes to commit."
+          fi
