@@ -160,10 +160,6 @@ me = AviralAgarwal()
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aviral02728&theme=tokyonight&hide_border=true&stroke=444444&ring=7c83fd&fire=7c83fd&currStreakLabel=7c83fd" width="75%" alt="GitHub Streak"/>
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Aviral02728&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" width="100%" alt="GitHub Trophies"/>
-
 </div>
 
 ---
