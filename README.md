@@ -170,7 +170,7 @@ me = AviralAgarwal()
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Aviral02728&theme=tokyo-night&hide_border=true&area=true&color=7c83fd&line=7c83fd&point=e8eaf6" width="100%" alt="Contribution Graph"/>
+<img src="https://raw.githubusercontent.com/Aviral02728/aviral_main/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Graph"/>
 
 </div>
 
@@ -191,7 +191,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> Your daily inspiration will appear here.
+> "Stay hungry, stay foolish."  
+> — **Steve Jobs**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
