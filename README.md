@@ -21,10 +21,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aviral02728)
 [![Gmail](https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aviral27nov@gmail.com)
 
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Aviral02728&style=for-the-badge&color=7c83fd&label=PROFILE+VIEWS)
-
 </div>
 
 ---
@@ -82,6 +78,12 @@ me = AviralAgarwal()
 ## 🏆 Achievements
 
 - 🥇 **KrakenX 2026 — 1st Place**
+
+---
+
+## 📂 Featured Repository
+
+- [**aviral_main**](https://github.com/Aviral02728/aviral_main) — My GitHub profile and project overview
 
 ---
 
@@ -161,16 +163,6 @@ me = AviralAgarwal()
 <br/><br/>
 
 <img src="https://github-profile-trophy.vercel.app/?username=Aviral02728&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" width="100%" alt="GitHub Trophies"/>
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Aviral02728/aviral_main/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution Graph"/>
 
 </div>
 
