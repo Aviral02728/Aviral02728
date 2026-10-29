@@ -152,9 +152,9 @@ me = AviralAgarwal()
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Aviral02728&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" height="185" alt="GitHub Stats"/>
+<img src="./profile/stats.svg" height="185" alt="GitHub Stats"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aviral02728&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="185" alt="Top Languages"/>
+<img src="./profile/top-langs.svg" height="185" alt="Top Languages"/>
 
 <br/><br/>
 
