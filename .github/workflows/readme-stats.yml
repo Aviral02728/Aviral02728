@@ -1,0 +1,100 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate local stats cards
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import urllib.request
+          from html import escape
+          from pathlib import Path
+
+          token = os.environ["GH_TOKEN"]
+          headers = {"Accept": "application/vnd.github+json", "Authorization": f"Bearer {token}"}
+
+          def get(path):
+              request = urllib.request.Request(
+                  f"https://api.github.com/{path}", headers=headers
+              )
+              with urllib.request.urlopen(request) as response:
+                  return json.load(response)
+
+          user = get("users/Aviral02728")
+          repos = get("users/Aviral02728/repos?type=owner&per_page=100")
+          stars = sum(repo["stargazers_count"] for repo in repos)
+          forks = sum(repo["forks_count"] for repo in repos)
+          languages = {}
+          for repo in repos:
+              data = get(f"repos/Aviral02728/{repo['name']}/languages")
+              for language, amount in data.items():
+                  languages[language] = languages.get(language, 0) + amount
+
+          total = sum(languages.values()) or 1
+          top_languages = sorted(languages.items(), key=lambda item: item[1], reverse=True)[:3]
+          colors = {"JavaScript": "#f1e05a", "HTML": "#e34c26", "CSS": "#563d7c", "Python": "#3572A5", "Jupyter Notebook": "#da5b0b"}
+
+          def stats_svg():
+              rows = [
+                  ("Public repositories", user["public_repos"]),
+                  ("Followers", user["followers"]),
+                  ("Following", user["following"]),
+                  ("Stars earned", stars),
+              ]
+              body = "".join(
+                  f'<text x="30" y="{75 + i * 30}">{escape(str(label))}</text>'
+                  f'<text x="260" y="{75 + i * 30}" fill="#70a5fd">{value}</text>'
+                  for i, (label, value) in enumerate(rows)
+              )
+              return f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="185" viewBox="0 0 495 185"><title>Aviral's GitHub statistics</title><rect width="495" height="185" rx="8" fill="#1a1b27"/><text x="25" y="35" fill="#70a5fd" font-family="Arial,sans-serif" font-size="21" font-weight="bold">Aviral's GitHub Stats</text><g fill="#a9b1d6" font-family="Arial,sans-serif" font-size="14">{body}</g></svg>'''
+
+          def languages_svg():
+              rows = []
+              for i, (language, amount) in enumerate(top_languages):
+                  percent = round(amount / total * 100)
+                  y = 75 + i * 35
+                  width = max(20, round(percent * 2.7))
+                  color = colors.get(language, "#8b949e")
+                  rows.append(
+                      f'<text x="30" y="{y}" fill="#a9b1d6">{escape(language)}</text>'
+                      f'<rect x="150" y="{y - 12}" width="{width}" height="14" rx="7" fill="{color}"/>'
+                      f'<text x="{min(430, 160 + width)}" y="{y}" fill="#a9b1d6">{percent}%</text>'
+                  )
+              body = "".join(rows)
+              return f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="185" viewBox="0 0 495 185"><title>Aviral's most-used languages</title><rect width="495" height="185" rx="8" fill="#1a1b27"/><text x="25" y="35" fill="#70a5fd" font-family="Arial,sans-serif" font-size="21" font-weight="bold">Most Used Languages</text><g font-family="Arial,sans-serif" font-size="14">{body}</g></svg>'''
+
+          Path("profile").mkdir(exist_ok=True)
+          Path("profile/stats.svg").write_text(stats_svg(), encoding="utf-8")
+          Path("profile/top-langs.svg").write_text(languages_svg(), encoding="utf-8")
+          PY
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update README stats cards"
+            git push
+          else
+            echo "No changes to commit."
+          fi
