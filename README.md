@@ -142,17 +142,13 @@ me = AviralAgarwal()
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="./profile/stats.svg" height="185" alt="GitHub Stats"/>
+<img src="./profile/stats.svg" width="100%" alt="GitHub Stats"/>
 
-<img src="./profile/top-langs.svg" height="185" alt="Top Languages"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aviral02728&theme=tokyonight&hide_border=true&stroke=444444&ring=7c83fd&fire=7c83fd&currStreakLabel=7c83fd" width="75%" alt="GitHub Streak"/>
+<img src="./profile/top-langs.svg" width="72%" alt="Top Languages"/>
 
 </div>
 
