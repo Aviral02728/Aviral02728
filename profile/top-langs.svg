@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="185" viewBox="0 0 495 185" role="img" aria-labelledby="title desc">
+  <title id="title">Aviral's most-used languages</title>
+  <desc id="desc">Jupyter Notebook, HTML, and JavaScript are the primary languages across Aviral's repositories.</desc>
+  <rect width="495" height="185" rx="8" fill="#1a1b27"/>
+  <text x="25" y="35" fill="#70a5fd" font-family="Arial, sans-serif" font-size="21" font-weight="bold">Most Used Languages</text>
+  <g font-family="Arial, sans-serif" font-size="14">
+    <text x="30" y="75" fill="#a9b1d6">Jupyter Notebook</text><rect x="150" y="63" width="256" height="14" rx="7" fill="#da5b0b"/><text x="416" y="75" fill="#a9b1d6">95%</text>
+    <text x="30" y="110" fill="#a9b1d6">HTML</text><rect x="150" y="98" width="20" height="14" rx="7" fill="#e34c26"/><text x="180" y="110" fill="#a9b1d6">2%</text>
+    <text x="30" y="145" fill="#a9b1d6">JavaScript</text><rect x="150" y="133" width="20" height="14" rx="7" fill="#f1e05a"/><text x="180" y="145" fill="#a9b1d6">2%</text>
+  </g>
+</svg>
