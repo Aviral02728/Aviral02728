@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "It always seems impossible until it is done."  
-> — **Nelson Mandela**
+> "Without data, you’re just another person with an opinion."  
+> — **W. Edwards Deming**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
