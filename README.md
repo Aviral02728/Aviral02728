@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Without data, you’re just another person with an opinion."  
-> — **W. Edwards Deming**
+> "The secret of getting ahead is getting started."  
+> — **Mark Twain**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
