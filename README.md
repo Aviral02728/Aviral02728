@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "The secret of getting ahead is getting started."  
-> — **Mark Twain**
+> "Knowledge is power."  
+> — **Francis Bacon**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
