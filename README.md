@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Knowledge is power."  
-> — **Francis Bacon**
+> "Success is not final, failure is not fatal."  
+> — **Winston Churchill**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
