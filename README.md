@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Success is not final, failure is not fatal."  
-> — **Winston Churchill**
+> "That’s been one of my mantras — focus and simplicity."  
+> — **Steve Jobs**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
