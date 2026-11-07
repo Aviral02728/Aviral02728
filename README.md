@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "That’s been one of my mantras — focus and simplicity."  
-> — **Steve Jobs**
+> "First, solve the problem. Then, write the code."  
+> — **John Johnson**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
