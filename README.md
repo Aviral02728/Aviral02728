@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "First, solve the problem. Then, write the code."  
-> — **John Johnson**
+> "Imagination is more important than knowledge."  
+> — **Albert Einstein**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
