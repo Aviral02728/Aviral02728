@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Imagination is more important than knowledge."  
-> — **Albert Einstein**
+> "It does not matter how slowly you go as long as you do not stop."  
+> — **Confucius**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
