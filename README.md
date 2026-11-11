@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "It does not matter how slowly you go as long as you do not stop."  
-> — **Confucius**
+> "The best way to predict the future is to invent it."  
+> — **Alan Kay**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
