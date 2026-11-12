@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "The best way to predict the future is to invent it."  
-> — **Alan Kay**
+> "If you can’t explain it simply, you don’t understand it well enough."  
+> — **Albert Einstein**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
