@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "If you can’t explain it simply, you don’t understand it well enough."  
-> — **Albert Einstein**
+> "I have not failed. I’ve just found 10,000 ways that won’t work."  
+> — **Thomas Edison**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
