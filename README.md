@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "I have not failed. I’ve just found 10,000 ways that won’t work."  
-> — **Thomas Edison**
+> "Great things are done by a series of small things brought together."  
+> — **Vincent van Gogh**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
