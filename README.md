@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Great things are done by a series of small things brought together."  
-> — **Vincent van Gogh**
+> "An investment in knowledge pays the best interest."  
+> — **Benjamin Franklin**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
