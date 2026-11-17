@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "An investment in knowledge pays the best interest."  
-> — **Benjamin Franklin**
+> "Talk is cheap. Show me the code."  
+> — **Linus Torvalds**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
