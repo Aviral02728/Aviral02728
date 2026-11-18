@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Talk is cheap. Show me the code."  
-> — **Linus Torvalds**
+> "Stay hungry, stay foolish."  
+> — **Steve Jobs**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
