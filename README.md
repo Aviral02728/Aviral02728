@@ -171,7 +171,7 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Stay hungry, stay foolish."  
+> "The only way to do great work is to love what you do."  
 > — **Steve Jobs**
 <!-- DAILY-QUOTE:END -->
 
