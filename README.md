@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Simplicity is the ultimate sophistication."  
-> — **Leonardo da Vinci**
+> "It always seems impossible until it is done."  
+> — **Nelson Mandela**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
