@@ -78,6 +78,7 @@ me = AviralAgarwal()
 ## 🏆 Achievements
 
 - 🥇 **KrakenX 2026 — 1st Place**
+- 🏆 **Hacknite - Grand Finale Qualifier**
 
 ---
 
