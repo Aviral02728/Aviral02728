@@ -171,8 +171,8 @@ me = AviralAgarwal()
 ### 💡 Daily Inspiration
 
 <!-- DAILY-QUOTE:START -->
-> "Without data, you’re just another person with an opinion."  
-> — **W. Edwards Deming**
+> "Knowledge is power."  
+> — **Francis Bacon**
 <!-- DAILY-QUOTE:END -->
 
 <br/>
